@@ -1,6 +1,6 @@
 class V1::ThingsController < ApplicationController
 	def index
-		render json: { :Things=>
+		render json: { :things=>
 			[
 					{
 						:name=>"Some-thing",
